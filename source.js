@@ -1,3 +1,4 @@
+<script>
 // Добавляем в Cookie UTM метки первого визита
 function setCookie(utm) {
 	var date = new Date(new Date().getTime() + (30*24*60*60*1000));
@@ -22,3 +23,4 @@ function checkUTM() {
 checkUTM();
 
 // Вы можете получить UTM-метки getCookie('utm_storage')
+</script>
